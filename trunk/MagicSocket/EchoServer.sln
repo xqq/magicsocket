@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EchoServer", "EchoServer\EchoServer.vcproj", "{4B45A9B7-FF3C-45A4-818B-B81B47F3A585}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B9BF116-41F8-4D2D-B3AD-1D5A1CC49691} = {2B9BF116-41F8-4D2D-B3AD-1D5A1CC49691}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MagicSocket", "MagicSocket\MagicSocket.vcproj", "{2B9BF116-41F8-4D2D-B3AD-1D5A1CC49691}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B45A9B7-FF3C-45A4-818B-B81B47F3A585}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B45A9B7-FF3C-45A4-818B-B81B47F3A585}.Debug|Win32.Build.0 = Debug|Win32
+		{4B45A9B7-FF3C-45A4-818B-B81B47F3A585}.Release|Win32.ActiveCfg = Release|Win32
+		{4B45A9B7-FF3C-45A4-818B-B81B47F3A585}.Release|Win32.Build.0 = Release|Win32
+		{2B9BF116-41F8-4D2D-B3AD-1D5A1CC49691}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2B9BF116-41F8-4D2D-B3AD-1D5A1CC49691}.Debug|Win32.Build.0 = Debug|Win32
+		{2B9BF116-41F8-4D2D-B3AD-1D5A1CC49691}.Release|Win32.ActiveCfg = Release|Win32
+		{2B9BF116-41F8-4D2D-B3AD-1D5A1CC49691}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
