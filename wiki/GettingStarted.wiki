@@ -1,0 +1,25 @@
+#summary 在 10 分钟之内创建一个基于 MagicSocket 的 Echo Server
+
+= MagicSocket 基本架构与知识 =
+
+  * MagicSocket 类库中所有的名字全部位于 namespace Magic 中。
+  * MagicSocket 类库中大部分类都从 Magic::Object 继承，这样继承出来的类拥有引用计数。
+  * Magic::Pointer 实现了自动引用计数管理，并且声明了一些更加方便的名字，如 SocketPtr、BufferPtr 等。
+  * MagicSocket 类库中抛出的所有异常均为 std::exception 或其子类。
+  * Magic::Socket 中的 BeginXXX、EndXXX 为异步函数，其余的函数为同步函数。
+
+= 环境 =
+
+本类库目前在 Microsoft Visual Studio 2008 下配合 AnkhSvn 进行开发，因此您最好装有这两款软件。
+
+Microsoft Visual Studio 2008 是一款 Win32 下的集成开发环境。如果您的工程不需要用到 MFC/ATL 及一些企业版功能，您可以使用 Microsoft Visual Studio 2008 Express，该软件是免费的，可以在这里下载：
+http://www.microsoft.com/express/
+
+AnkhSvn 是一个集成在 Visual Studio 中的 SVN 版本控制软件，可以在这里下载：
+http://ankhsvn.open.collab.net/
+
+下面的步骤均假设您的计算机上已装有这两款软件。
+
+= 创建工程 =
+
+to be continued.
