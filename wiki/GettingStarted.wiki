@@ -22,7 +22,7 @@
 请按照下列步骤操作：
 
   # 新建一个 Win32 控制台应用程序，在向导中选中“空项目”。
-  # 文件 - Subversion - Add Project From Subversion，添加 http://magicsocket.googlecode.com/svn/trunk/MagicSocket/MagicSocket/MagicSocket.vcproj，注意选取合适的存储路径。
+  # 文件 - Subversion - Add Project From Subversion，添加 http://magicsocket.googlecode.com/svn/trunk/MagicSocket/MagicSocket/MagicSocket.vcproj ，注意选取合适的存储路径。
   # 回到刚才我们创建的项目，我们发现新的项目并没有被添加进来，手动添加之：文件 - 添加 - 现有项目，然后选择刚才导出的 MagicSocket.vcproj。
   # 添加项目依赖：选中我们新建的项目，在项目 - 项目依赖项中选中 MagicSocket。
   # 添加链接引用：在我们新建的项目的属性页中找到配置属性 - 链接器 - 输入，在文本框中增加 $(OutDir)\MagicSocket.lib。注意不同的配置文件 (如 Debug 或 Release) 的设置是独立的。
